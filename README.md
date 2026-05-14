@@ -1,19 +1,19 @@
-<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
+<p align="center"><a href="https://kutt.to" title="kutt.to"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.to"></a></p>
 
-# Kutt.it
+# Kutt.to
 
 **Kutt** is a modern URL shortener with support for custom domains. Create and edit links, view statistics, manage users, and more.
 
-[https://kutt.it](https://kutt.it)
+[https://kutt.to](https://kutt.to)
 
 > [!NOTE]
-> [kutt.it](https://kutt.it) domain has been deactivated by the Italian TLD registrar due to the lack of identification documents. I'm in contact with the domain registrar to bring it back as soon as possible.
+> [kutt.to](https://kutt.to) domain has been deactivated by the Italian TLD registrar due to the lack of identification documents. I'm in contact with the domain registrar to bring it back as soon as possible.
 >
 >  Meanwhile, please use [kutt.to](https://kutt.to), all the previous and the future links work with this domain as well.
 
 
 [![docker-build-release](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml/badge.svg)](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml)
-[![Uptime Status](https://uptime.betterstack.com/status-badges/v2/monitor/1ogaa.svg)](https://status.kutt.it)
+[![Uptime Status](https://uptime.betterstack.com/status-badges/v2/monitor/1ogaa.svg)](https://status.kutt.to)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
 [![GitHub license](https://img.shields.io/github/license/thedevs-network/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
 
@@ -51,7 +51,7 @@
 
 Support the development of Kutt by making a donation or becoming an sponsor.
 
-[Donate or sponsor →](https://btcpay.kutt.it/apps/L9Gc7PrnLykeRHkhsH2jHivBeEh/crowdfund)
+[Donate or sponsor →](https://btcpay.kutt.to/apps/L9Gc7PrnLykeRHkhsH2jHivBeEh/crowdfund)
 
 ## Setup
 
@@ -86,7 +86,7 @@ Official Kutt Docker image is available on [Docker Hub](https://hub.docker.com/r
 
 ## API
 
-[View API documentation →](https://docs.kutt.it)
+[View API documentation →](https://docs.kutt.to)
 
 ## Configuration
 
@@ -236,16 +236,16 @@ Download Kutt's extension for web browsers via below links.
 
 | Language        | Link                                                                              | Description                                          |
 | --------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| C# (.NET)       | [KuttSharp](https://github.com/0xaryan/KuttSharp)                                 | .NET package for Kutt.it url shortener               |
+| C# (.NET)       | [KuttSharp](https://github.com/0xaryan/KuttSharp)                                 | .NET package for Kutt.to url shortener               |
 | C# (.NET)       | [Kutt.NET](https://github.com/AlphaNecron/Kutt.NET)                               | C# API Wrapper for Kutt                              |
 | Python          | [kutt-cli](https://github.com/RealAmirali/kutt-cli)                               | Command-line client for Kutt written in Python       |
 | Ruby            | [kutt.rb](https://github.com/RealAmirali/kutt.rb)                                 | Kutt library written in Ruby                         |
 | Rust            | [urlshortener](https://github.com/vityafx/urlshortener-rs)                        | URL shortener library written in Rust                |
 | Rust            | [kutt-rs](https://github.com/robatipoor/kutt-rs)                                  | Command line tool written in Rust                    |
-| Node.js         | [node-kutt](https://github.com/ardalanamini/node-kutt)                            | Node.js client for Kutt.it url shortener             |
+| Node.js         | [node-kutt](https://github.com/ardalanamini/node-kutt)                            | Node.js client for Kutt.to url shortener             |
 | JavaScript      | [kutt-vscode](https://github.com/mehrad77/kutt-vscode)                            | Visual Studio Code extension for Kutt                |
 | Java            | [kutt-desktop](https://github.com/cipher812/kutt-desktop)                         | A Cross platform Java desktop application for Kutt   |
-| Go              | [kutt-go](https://github.com/raahii/kutt-go)                                      | Go client for Kutt.it url shortener                  |
+| Go              | [kutt-go](https://github.com/raahii/kutt-go)                                      | Go client for Kutt.to url shortener                  |
 | BASH            | [GitHub Gist](https://gist.github.com/hashworks/6d6e4eae8984a5018f7692a796d570b4) | Simple BASH function to access the API               |
 | BASH            | [url-shortener](https://git.tim-peters.org/Tim/url-shortener)                     | Simple BASH script with GUI                          |
 | Kubernetes/Helm | [ArtifactHub](https://artifacthub.io/packages/helm/christianhuth/kutt)            | A Helm Chart to install Kutt on a Kubernetes cluster |
