@@ -353,6 +353,46 @@ function removeWww(host) {
   return host.replace("www.", "");
 };
 
+/**
+ * @param { ReturnType<import("express-useragent").default["parse"]> } agent
+ * @returns {string}
+ */
+function getUseragentBrowser(agent) {
+  if (agent.isIE) 
+    return "ie";
+  else if (agent.isFirefox)
+    return "firefox";
+  else if (agent.isChrome)
+    return "chrome";
+  else if (agent.isOpera)
+    return "opera";
+  else if (agent.isEdge)
+    return "edge";
+  else
+    return "other";
+}
+
+/**
+ * @param { ReturnType<import("express-useragent").default["parse"]> } agent
+ * @returns {string}
+ */
+function getUseragentOS(agent) {
+  if (agent.isWindows)
+    return "windows";
+  else if (agent.isMac && agent.isDesktop)
+    return "macos";
+  else if (agent.isiPhone || agent.isiPad || agent.isiPod)
+    return "ios";
+  else if (agent.isMac && agent.isMobile)
+    return "ios";
+  else if (agent.isAndroid)
+    return "android";
+  else if (agent.isLinux)
+    return "linux";
+  else
+    return "other";
+}
+
 function registerHandlebarsHelpers() {
   hbs.registerHelper("ifEquals", function(arg1, arg2, options) {
     return (arg1 === arg2) ? options.fn(this) : options.inverse(this);
@@ -417,9 +457,11 @@ module.exports = {
   getCustomCSSFileNames,
   getDifferenceFunction,
   getInitStats,
-  getSiteURL,
   getShortURL,
+  getSiteURL,
   getStatsPeriods,
+  getUseragentBrowser,
+  getUseragentOS,
   isAdmin,
   parseBooleanQuery,
   parseDatetime,
