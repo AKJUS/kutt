@@ -65,11 +65,11 @@ const spec = {
   OIDC_ENABLED: bool({ default: false }),
   OIDC_ISSUER: str({ default: "" }),
   OIDC_PROMPT: str({ default: "" }),
-
   OIDC_CLIENT_ID: str({ default: "" }),
   OIDC_CLIENT_SECRET: str({ default: "" }),
   OIDC_SCOPE: str({ default: "openid profile email" }),
   OIDC_EMAIL_CLAIM: str({ default: "email" }),
+  OIDC_BUTTON_TEXT: str({ default: "Log in with OIDC" }),
   ENABLE_RATE_LIMIT: bool({ default: false }),
   REPORT_EMAIL: str({ default: "" }),
   CONTACT_EMAIL: str({ default: "" }),
