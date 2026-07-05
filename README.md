@@ -137,10 +137,12 @@ You can use files for each of the variables by appending `_FILE` to the name of 
 | `MAIL_SECURE` | Whether use SSL for the email server connection | `false` | `true` | 
 | `OIDC_ENABLED` | Enable OpenID Connect | `false` | `true` | 
 | `OIDC_ISSUER` | OIDC issuer URL | - | `https://example.com/some/path` | 
+| `OIDC_POMPT` | OIDC prompt | - | `login` | 
 | `OIDC_CLIENT_ID` | OIDC client id | - | `example-app` | 
 | `OIDC_CLIENT_SECRET` | OIDC client secret | - | `some-secret` | 
 | `OIDC_SCOPE` | OIDC Scope | `openid profile email` | `openid email` | 
 | `OIDC_EMAIL_CLAIM` | Name of the field to get user's email from | `email` | `userEmail` | 
+| `OIDC_BUTTON_TEXT` | OIDC login button text | `Log in with OIDC` | `Log in via Example` | 
 | `REPORT_EMAIL` | The email address that will receive submitted reports | - | `example@yoursite.com` | 
 | `CONTACT_EMAIL` | The support email address to show on the app | - | `example@yoursite.com` | 
 
